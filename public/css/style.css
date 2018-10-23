@@ -1,0 +1,91 @@
+body{
+	font: 400 14px Arial;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar{
+  background-color: #3b5998;
+  height: 44px;
+}
+.formclass{
+	margin: auto;
+	width: 416px;
+	background-color: #eceff5;
+}
+@media (max-width: 420px) {
+	form{
+		width: 90%;
+	}
+}
+input{
+	height: 44px;
+    padding: 12px;
+    display: block;
+    width: 100%;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.language{
+	font-size: 12px;
+	padding: 1rem;
+	line-height: 16px;
+}
+.primarylg{
+	font-weight: bold;
+	color: #90949c!important;
+}
+.language a{
+color: #576b95;
+}
+.copyright{
+	color: #808080;
+	font-size: 12px;
+}
+.morelg{
+	width: fit-content;
+	margin: auto;
+    color: #90949c;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	padding: 0 5px;
+	font-size: 20px;
+
+}
+.quenmk a{
+	color: #7596c8;
+	padding: 0 10px;
+	font-size: 12px;
+}
+.btn{
+	font-family: sans-serif;
+	height: 36px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+.btn-dangnhap{
+background-color: #3578e5;
+}
+.btn-dangky{
+	width: fit-content;
+	margin: auto;
+	background-color: #00a400;
+}
+#inputUsername{
+	border-bottom: none;
+	border-radius: .25rem .25rem 0 0;
+}
+#inputPass{	
+	border-radius: 0 0 .25rem .25rem;
+}
+.form-container{
+	background-color: #eceff5;
+}
+.text-divider{margin: 1.2em; line-height: 0; text-align: center;}
+.text-divider span{background-color: #eceff5; padding: 0em 1.2em; font-size: 14px; color: #4b4f56}
+.text-divider:before{ content: " "; display: block; border-top: 1px solid #ccd0d5;}
